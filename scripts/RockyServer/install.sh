@@ -194,6 +194,7 @@ main() {
     # install_packages "git" "vim" "htop"
     # 也可以直接编写自己的安装和配置命令。
     # ==========================================================================
+    bash -c "$(curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_start.sh)"
     
     echo -e "${H_GREEN}${TICK} 脚本执行完毕。${NC}"
 }
